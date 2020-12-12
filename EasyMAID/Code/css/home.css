@@ -1,0 +1,17 @@
+#navbar {
+  	background-color: #333; 
+  	position: fixed;
+  	top: 0;
+  	width: 100%; 
+  	transition: top 0.3s;
+}
+
+#navbar a {
+	float: left;
+  	display: block;
+  	text-decoration: none;
+}
+body{
+	height:1000vh;
+}
+
