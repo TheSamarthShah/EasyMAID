@@ -4,10 +4,6 @@
     font-family: sans-serif;
 }
 
-body{
-    height: 1000vh;
-    width: 100%;
-}
 body::-webkit-scrollbar{
     width: 7px;
 }
@@ -30,7 +26,7 @@ a{
     text-decoration: none;
     transition: all 0.3s ease 0s;
 }
-button{
+#log-btn{
     border: 2px solid #E243EB;
     cursor: pointer;
     height: 5vh;
@@ -40,7 +36,7 @@ button{
     color:#E243EB ;
     transition: all 0.3s ease 0s;
 }
-button:hover{
+#log-btn:hover{
     box-shadow: 0 2px 20px 0 #E243EB inset, 0 2px 20px 0 #E243EB,
     0 2px 20px 0 #E243EB inset, 0 2px 20px 0 #E243EB;
 }
@@ -102,5 +98,26 @@ button:hover{
     to{
         fill:#E243EB;
     }
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+}
+.foot-cr{
+    color: white;
+    text-align: right;
+}
+.socialms{
+    margin-left: 43%;
+    text-align: center;
+}
+.scoial-icon{
+    text-decoration: none;
+    cursor: pointer;
 }
 
