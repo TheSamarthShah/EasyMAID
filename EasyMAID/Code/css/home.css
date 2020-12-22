@@ -3,7 +3,13 @@
     padding: 0;
     font-family: sans-serif;
 }
-
+body{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 100vh;
+}
 body::-webkit-scrollbar{
     width: 7px;
 }
@@ -26,7 +32,7 @@ a{
     text-decoration: none;
     transition: all 0.3s ease 0s;
 }
-#log-btn{
+.btn{
     border: 2px solid #E243EB;
     cursor: pointer;
     height: 5vh;
@@ -36,7 +42,7 @@ a{
     color:#E243EB ;
     transition: all 0.3s ease 0s;
 }
-#log-btn:hover{
+.btn:hover{
     box-shadow: 0 2px 20px 0 #E243EB inset, 0 2px 20px 0 #E243EB,
     0 2px 20px 0 #E243EB inset, 0 2px 20px 0 #E243EB;
 }
@@ -110,7 +116,9 @@ a{
 }
 .foot-cr{
     color: white;
+    padding-right: 10px;
     text-align: right;
+    font-size: 13px;
 }
 .socialms{
     margin-left: 43%;
@@ -119,5 +127,50 @@ a{
 .scoial-icon{
     text-decoration: none;
     cursor: pointer;
+}
+
+.login-frm{
+    width: 300px;
+    padding: 40px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    background-color: black;
+}
+#uname, #pass{
+    display: block;
+    background: none;
+    color: white;
+    border: none;
+    margin: 20px auto;
+    border: 2px solid #E243EB;
+    text-align: center;
+    outline: none;
+    padding: 15px 10px;
+    width: 200px;
+    border-radius: 24px;
+    transition: 0.2s;
+}
+#uname:focus, #pass:focus{
+    width:250px;
+    border-color: #2ecc71;
+}
+.login-btn{
+    border: 2px solid #E243EB;
+    cursor: pointer;
+    height: 5vh;
+    background-color:transparent;
+    padding: 5px 25px;
+    border-radius: 50px;
+    color:#E243EB ;
+    transition: all 0.3s ease 0s;
+}
+.login-btn:hover{
+    color: #2ecc71;
+    border-color: #2ecc71;
+    box-shadow: 0 2px 20px 0 #2ecc71 inset, 0 2px 20px 0 #2ecc71,
+    0 2px 20px 0 #2ecc71 inset, 0 2px 20px 0 #2ecc71;
 }
 
