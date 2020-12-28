@@ -46,8 +46,6 @@ a{
     box-shadow: 0 2px 20px 0 #E243EB inset, 0 2px 20px 0 #E243EB,
     0 2px 20px 0 #E243EB inset, 0 2px 20px 0 #E243EB;
 }
-
-
 #logo{
     animation: fill 0.5s ease forwards 2.5s;
     position: absolute;
@@ -128,7 +126,6 @@ a{
     text-decoration: none;
     cursor: pointer;
 }
-
 .login-frm{
     width: 300px;
     padding: 40px;
@@ -139,7 +136,7 @@ a{
     transform: translate(-50%,-50%);
     background-color: black;
 }
-#uname, #pass{
+#uname, #pass, #name, #email, #phn-no{
     display: block;
     background: none;
     color: white;
@@ -153,7 +150,7 @@ a{
     border-radius: 24px;
     transition: 0.2s;
 }
-#uname:focus, #pass:focus{
+#uname:focus, #pass:focus, #name:focus, #email:focus, #phn-no:focus{
     width:250px;
     border-color: #2ecc71;
 }
@@ -173,4 +170,13 @@ a{
     box-shadow: 0 2px 20px 0 #2ecc71 inset, 0 2px 20px 0 #2ecc71,
     0 2px 20px 0 #2ecc71 inset, 0 2px 20px 0 #2ecc71;
 }
-
+.signup-frm{
+    width: 300px;
+    padding: 40px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    background-color: black;
+}
